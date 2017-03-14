@@ -7,10 +7,11 @@ package chapter1;
 */
 class BlockDemo {
     public static void main(String args[]) {
-        double i, j, d;
+        double i = 5, j = 10, d;
 
-        i = 5;
-        j = 10;
+//        i = 5;
+//        j = 10;
+
 
         // the target of this if is a block
         if(i != 0) {
