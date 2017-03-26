@@ -64,15 +64,18 @@ class Help {
     }
 
     boolean isValid(int ch) {
-        if(ch < '1' | ch > '7' & ch != 'q') return false;
-        else return true;
+        if(ch < '1' | ch > '7' & ch != 'q')
+            return false;
+        else
+            return true;
     }
 
 }
 
-class HelpClassDemo {
+class HelpClassController {
     public static void main(String args[])
             throws java.io.IOException {
+
         char choice, ignore;
         Help hlpobj = new Help();
 
@@ -88,7 +91,8 @@ class HelpClassDemo {
 
             } while( !hlpobj.isValid(choice) );
 
-            if(choice == 'q') break;
+            if(choice == 'q')
+                break;
 
             System.out.println("\n");
 

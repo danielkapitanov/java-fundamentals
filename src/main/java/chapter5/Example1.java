@@ -2,15 +2,31 @@ package main.java.chapter5;
 
 // Demonstrate a one-dimensional array.
 class ArrayDemo {
-    public static void main(String args[]) {
-        int sample[] = new int[10];
-        int i;
+    public static void main(String[] args) {
+        char[] alphabet = new char[26];
 
-        for(i = 0; i < 10; i = i+1)
-            sample[i] = i;
+        String[] whatever = new String[1];
 
-        for(i = 0; i < 10; i = i+1)
-            System.out.println("This is sample[" + i + "]: " +
-                    sample[i]);
+        double name1[] = new double[987];
+
+        char i = 'A';
+
+        for (int x = 0; x < 26; x++, i++){
+            alphabet[x] = i;
+            System.out.print(alphabet[x]);
+        }
+
+        String c = "c";
+        char ch = 'c';
+
+
+
+        for(int x = 0; x <= alphabet.length - 1; x++)
+        {
+
+        }
+
+
+
     }
 }

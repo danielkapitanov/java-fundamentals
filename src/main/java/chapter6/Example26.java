@@ -19,9 +19,9 @@ class VarArgs4 {
 
     public static void main(String args[])
     {
-        vaTest(1, 2, 3);  // OK
-        vaTest(true, false, false); // OK
-
-        //vaTest(); // Error: Ambiguous!
+//        vaTest(1, 2, 3);  // OK
+//        vaTest(true, false, false); // OK
+//
+//        vaTest(); // Error: Ambiguous!
     }
 }

@@ -1,6 +1,3 @@
-package main.java.chapter6;
-
-// Try This 6-3 A simple version of the Quicksort.
 class Quicksort {
 
     // Set up a call to the actual Quicksort method.
@@ -29,8 +26,10 @@ class Quicksort {
             }
         } while(i <= j);
 
-        if(left < j) qs(items, left, j);
-        if(i < right) qs(items, i, right);
+        if(left < j)
+            qs(items, left, j);
+        if(i < right)
+            qs(items, i, right);
     }
 }
 

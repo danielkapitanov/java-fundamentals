@@ -3,11 +3,14 @@ package main.java.chapter6;
 // Demonstrate method overloading.
 class Overload {
     void ovlDemo() {
+
         System.out.println("No parameters");
     }
+    String s = "s";
 
     // Overload ovlDemo for one integer parameter.
     void ovlDemo(int a) {
+
         System.out.println("One parameter: " + a);
     }
 

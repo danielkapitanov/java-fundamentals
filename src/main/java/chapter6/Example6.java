@@ -10,9 +10,10 @@ class Test2 {
     }
     /* Pass an object. Now, ob.a and ob.b in object
        used in the call will be changed. */
-    void change(Test2 ob) {
+    public Test2 change(Test2 ob) {
         ob.a = ob.a + ob.b;
         ob.b = -ob.b;
+        return ob;
     }
 }
 
@@ -23,7 +24,7 @@ class PassObjRef {
         System.out.println("ob.a and ob.b before call: " +
                 ob.a + " " + ob.b);
 
-        ob.change(ob);
+        ob = ob.change(ob);
 
         System.out.println("ob.a and ob.b after call: " +
                 ob.a + " " + ob.b);

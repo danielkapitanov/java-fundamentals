@@ -2,9 +2,10 @@ package main.java.chapter6;
 
 // Use an inner class.
 class Outer {
-    int nums[];
+    private int nums[];
 
     Outer(int n[]) {
+
         nums = n;
     }
 

@@ -4,37 +4,44 @@ package main.java.chapter5;
    Try This 5-1
    Demonstrate the Bubble sort.
 */
+import java.util.Arrays;
 
 class Bubble {
     public static void main(String args[]) {
-        int nums[] = { 99, -10, 100123, 18, -978,
-                5623, 463, -9, 287, 49 };
-        int a, b, t;
-        int size;
+        String str[] = {"this", "is", "a", "bubble", "sort!"};
 
-        size = 10; // number of elements to sort
+        int a, b;
+        int size;
+        String t;
+
 
         // display original array
         System.out.print("Original array is:");
-        for(int i=0; i < size; i++)
-            System.out.print(" " + nums[i]);
+        for(int i=0; i < str.length; i++)
+            System.out.print(" " + str[i]);
+
         System.out.println();
 
         // This is the bubble sort.
-        for(a=1; a < size; a++)
-            for(b=size-1; b >= a; b--) {
-                if(nums[b-1] > nums[b]) { // if out of order
-                    // exchange elements
-                    t = nums[b-1];
-                    nums[b-1] = nums[b];
-                    nums[b] = t;
+        for(a=1; a < str.length; a++) {
+            for (b = str.length - 1; b >= a; b--) {
+                if (str[b - 1].compareTo(str[b]) > 1) { // if out of order
+                    t = str[b - 1];
+                    str[b - 1] = str[b];
+                    str[b] = t;
                 }
             }
+        }
+
+        String str2 = "sorter";
+        int i = str2.indexOf('r');
+        int y = str2.lastIndexOf('r');
+
 
         // display sorted array
-        System.out.print("Sorted array is:");
-        for(int i=0; i < size; i++)
-            System.out.print(" " + nums[i]);
-        System.out.println();
+//        System.out.print("Sorted array is:");
+//        for(int i=0; i < str.length; i++)
+//            System.out.print(" " + str[i]);
+//        System.out.println();
     }
 }

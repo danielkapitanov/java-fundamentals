@@ -23,6 +23,14 @@ class Block {
         if(ob.volume == volume) return true;
         else return false;
     }
+
+    void printBlock(Block variableName){
+        System.out.println(variableName.a);
+    }
+
+    void test(int i){
+        System.out.print(i);
+    }
 }
 
 class PassOb {
@@ -37,5 +45,7 @@ class PassOb {
                 ob1.sameBlock(ob3));
         System.out.println("ob1 same volume as ob3: " +
                 ob1.sameVolume(ob3));
+
+        ob1.printBlock(ob1);
     }
 }

@@ -11,6 +11,7 @@ class Vehicle_4_1 {
 // This class declares an object of type Vehicle.
 class TwoVehicles {
     public static void main(String args[]) {
+
         Vehicle_4_1 minivan = new Vehicle_4_1();
         Vehicle_4_1 sportscar = new Vehicle_4_1();
 
@@ -27,8 +28,8 @@ class TwoVehicles {
         sportscar.mpg = 12;
 
         // compute the ranges assuming a full tank of gas
-        range1 = minivan.fuelcap * minivan.mpg;
-        range2 = sportscar.fuelcap * sportscar.mpg;
+        range1 = minivan.fuelcap * minivan.mpg; // 16 * 21;
+        range2 = sportscar.fuelcap * sportscar.mpg; // 14 * 12
 
         System.out.println("Minivan can carry " + minivan.passengers +
                 " with a range of " + range1);

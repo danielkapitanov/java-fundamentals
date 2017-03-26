@@ -32,7 +32,7 @@ class Queue2 {
     }
 
     // Put a characer into the Queue2.
-    void put(char ch) {
+    public void put(char ch) {
         if(putloc==q.length) {
             System.out.println(" -- Queue2 is full.");
             return;
@@ -42,7 +42,7 @@ class Queue2 {
     }
 
     // Get a character from the Queue2.
-    char get() {
+    public char get() {
         if(getloc == putloc) {
             System.out.println(" -- Queue2 is empty.");
             return (char) 0;

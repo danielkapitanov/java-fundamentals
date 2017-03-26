@@ -18,6 +18,7 @@ class Ragged {
         for(i=0; i < 5; i++)
             for(j=0; j < 10; j++)
                 riders[i][j] = i + j + 10;
+
         for(i=5; i < 7; i++)
             for(j=0; j < 2; j++)
                 riders[i][j] = i + j + 10;

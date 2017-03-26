@@ -3,6 +3,7 @@ package main.java.chapter6;
 // Demonstrate an overloaded constructor.
 class MyClass3 {
     int x;
+    int j;
 
     MyClass3() {
         System.out.println("Inside MyClass().");
@@ -23,6 +24,8 @@ class MyClass3 {
         System.out.println("Inside MyClass(int, int).");
         x = i * j;
     }
+
+
 }
 
 class OverloadConsDemo {

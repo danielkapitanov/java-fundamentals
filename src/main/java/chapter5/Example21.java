@@ -7,7 +7,7 @@ class StringSwitch {
 
         String command = "cancel";
 
-        switch(command) {
+        switch(command.toLowerCase()) {
             case "connect":
                 System.out.println("Connecting");
                 break;

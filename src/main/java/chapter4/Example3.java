@@ -6,10 +6,18 @@ class Vehicle_4_3 {
     int passengers; // number of passengers
     int fuelcap;    // fuel capacity in gallons
     int mpg;        // fuel consumption in miles per gallon
+    int t_pressure;
+    double speed;
+
 
     // Display the range.
-    void range() {
-        System.out.println("Range is " + fuelcap * mpg);
+    public int range() {
+        //System.out.println("Range is " + fuelcap * mpg);
+        return fuelcap * mpg;
+    }
+
+    public void accelerate(double speed){
+        this.speed += speed;
     }
 }
 
@@ -24,6 +32,13 @@ class AddMeth {
         minivan.passengers = 7;
         minivan.fuelcap = 16;
         minivan.mpg = 21;
+
+        minivan.speed = 45;
+        minivan.accelerate(20);
+
+        //print speed()
+
+        int range = minivan.range();
 
         // assign values to fields in sportscar
         sportscar.passengers = 2;

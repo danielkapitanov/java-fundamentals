@@ -3,12 +3,15 @@ package main.java.chapter5;
 // Some String operations.
 class StrOps {
     public static void main(String args[]) {
-        String str1 =
-                "When it comes to Web programming, Java is #1.";
-        String str2 = new String(str1);
+        String str1 = "When it comes to programming, Java is #1.";
+        String str2 = "When it comes to programming, Java is #1.";
         String str3 = "Java strings are powerful.";
         int result, idx;
         char ch;
+
+        if (str1.equalsIgnoreCase(str2)){
+            System.out.println("this shouldn't print");
+        }
 
         System.out.println("Length of str1: " +
                 str1.length());
@@ -29,6 +32,7 @@ class StrOps {
             System.out.println("str1 does not equal str3");
 
         result = str1.compareTo(str3);
+
         if(result == 0)
             System.out.println("str1 and str3 are equal");
         else if(result < 0)

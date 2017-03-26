@@ -19,7 +19,8 @@ class FailSoftArray {
 
     // Return value at given index.
     public int get(int index) {
-        if(indexOK(index)) return a[index];
+        if(indexOK(index))
+            return a[index];
         return errval;
     }
 

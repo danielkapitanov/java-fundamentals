@@ -12,8 +12,8 @@ class ForEach2 {
                 nums[i][j] = (i+1)*(j+1);
 
         // Use for-each for loop to display and sum the values.
-        for(int x[] : nums) {
-            for(int y : x) {
+        for(int array[] : nums) {
+            for(int y : array) {
                 System.out.println("Value is: " + y);
                 sum += y;
             }

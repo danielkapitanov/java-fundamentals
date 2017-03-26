@@ -1,12 +1,16 @@
 package main.java.chapter4;
 
-/*
-    void myMeth() {
-      int i;
+class Example4 {
 
-      for(i=0; i<10; i++) {
-        if(i == 5) return; // stop at 5
-        System.out.println();
-      }
+    public static void main(String[] args) {
+        int i;
+
+        for (i = 0; i < 10; i++) {
+            if (i <= 9){
+                return;
+            }
+
+            System.out.println(i);
+        }
     }
-*/
+}

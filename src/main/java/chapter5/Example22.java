@@ -9,5 +9,14 @@ class CLDemo {
         System.out.println("They are: ");
         for(int i=0; i<args.length; i++)
             System.out.println("arg[" + i + "]: " + args[i]);
+
+
+        StringBuilder sb = new StringBuilder();
+
+        for(int i=0; i<args.length; i++){
+            sb.append(args[i]);
+        }
+        sb.toString();
+
     }
 }

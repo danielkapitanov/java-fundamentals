@@ -2,11 +2,9 @@ package main.java.chapter6;
 
 // Use a static variable.
 class StaticDemo {
-    int x; // a normal instance variable
-    static int y; // a static variable
+    int x;
+    static int y;
 
-    // Return the sum of the instance variable x
-    // and the static variable y.
     int sum() {
         return x + y;
     }
@@ -20,25 +18,13 @@ class SDemo {
         // Each object has its own copy of an instance variable.
         ob1.x = 10;
         ob2.x = 20;
-        System.out.println("Of course, ob1.x and ob2.x " +
-                "are independent.");
-        System.out.println("ob1.x: " + ob1.x +
-                "\nob2.x: " + ob2.x);
-        System.out.println();
 
-        // Each object shares one copy of a static variable.
-        System.out.println("The static variable y is shared.");
-        StaticDemo.y = 19;
-        System.out.println("Set StaticDemo.y to 19.");
+        StaticDemo.y = 2;
 
-        System.out.println("ob1.sum(): " + ob1.sum());
-        System.out.println("ob2.sum(): " + ob2.sum());
-        System.out.println();
+        int xx = ob1.sum();
+        int yy = ob2.sum();
 
-        StaticDemo.y = 100;
-        System.out.println("Change StaticDemo.y to 100");
-
-        System.out.println("ob1.sum(): " + ob1.sum());
-        System.out.println("ob2.sum(): " + ob2.sum());
-        System.out.println();  }
+        System.out.println("ob1 sum = " + xx);
+        System.out.println("ob2 sum = " + yy);
+    }
 }
