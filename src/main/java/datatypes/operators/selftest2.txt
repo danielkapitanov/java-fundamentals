@@ -1,0 +1,35 @@
+Chapter 2
+
+1. The minimize the effort the machine needs to make in order to interpret the code.
+It makes the code more efficient.
+
+2. Unicode. Most other languages use only ASCI.
+
+3. False, a boolean can only be true or false.
+
+4. System.out.print("One");
+System.out.println("Two");
+System.out.println("Three");
+
+5. Sum has not been given any value
+
+6. the prefix form of the increment operator makes the mathematical expression before the loop is executed,
+while the postfix does it after the loop.
+
+7.
+b=0
+if (b!=0 && 100%b==0) {
+...
+}
+
+In this case the division by 0 is avoided since the first condition is not met
+
+8. int
+
+9. When you want to do a narrow conversion of compatible variables.
+
+10. Answer uploaded in primeNums.java class in the same folder.
+
+11. No
+
+12. Yes

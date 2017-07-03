@@ -18,5 +18,10 @@ class Example2 {
 
         System.out.print("var2 contains var1 / 2: ");
         System.out.println(var2);
+
+
+        int y;
+        y=100%88;
+        System.out.println(y);
     }
 }
