@@ -1,0 +1,68 @@
+hapter 1
+
+1. Bytecode is code that is processed by a virtual machine (JVM in the case of Java). It is key to Java's use for Internet programming because it removes the need for seperate compilers for every CPU and the JVM also contains the code within the virtual machine, so it cannot do any harm to the computer.
+
+2. Encapsulation, Polymorphism & Inheritance.
+
+3. At the main method
+
+4. A variable is a space reserved in memory that can be assigned values. (Values can also be changed throughout the execution of the program.)
+
+5. D
+
+6.
+// Single line comment
+
+/*
+...
+Multi line comment
+...
+*/
+
+7. 
+if (statement) {
+code block that is executed if statement is true
+}
+
+for (initialization; condition; iteration) {
+statement
+}
+
+8. Inside curly brackets
+
+9. 
+public static void main (String[] args) {
+    class Example {
+        double weight, moonWeight;
+        weight = 80; //example weight of 80 kg
+
+        moonWeight=weight*0.17;
+        System.out.println("weight+ "kg on the moon is "+moonWeight+"kg.");
+
+}
+}
+
+10.
+class Example1 {
+    // A Java program begins with a call to main().
+    public static void main (String[] args){
+
+        double inches, meters;
+        int counter;
+
+        counter = 0;
+        for(inches = 1; inches <= 120; inches++) {
+            meters = inches/39.37; // convert to meters
+            System.out.println(inches + " inches is " +
+                    meters + " meters");
+            counter++;
+            // every 10th line, print a blank line
+            if(counter == 12) {
+                System.out.println();
+                counter = 0; // reset the line counter
+            }
+        }
+    }
+}
+11. Syntax error
+12. No
