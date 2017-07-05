@@ -1,0 +1,32 @@
+1. A class is essentially a blueprint for objects to be created. You can have many separate objects from the same class.
+(they have the same instance variables, but with different values)
+
+2. class Classname {
+
+}
+
+3. Of its class' instance variables
+
+4.
+Mycounter counter;
+counter = new Mycounter();
+
+5. double myMeth (int a, int b) {
+
+}
+
+6.
+return value;
+
+7. same as the Class name
+
+8. creates new object
+
+9. When memory gets filled up, garbage collection occurs and it removes all objects and variables that are no longer in use.
+finalize() is a method that gets executed before garbage collection occurs.
+
+10. the this keyword is used to refer to the instance variables inside methods
+
+11. yes
+
+12. void
