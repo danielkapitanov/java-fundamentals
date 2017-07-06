@@ -1,0 +1,39 @@
+1. double Array[] = new double[12];
+
+double Array[];
+Array = new double[12];
+
+2. int Array[] = new int[5];
+for (int i=1; i<6; i++){
+Array[i-1]=i;
+}
+
+3. see Question3.java
+
+4. see Question4.java
+
+5. indexOf(str) searches the invoking string for the specified substring
+lastIndexOf(str) searches the invoking string for the last match of the specified substring
+
+6. String str = "I like Java";
+int x = str.length();
+char ch = str.charAt(4);
+
+7.
+
+8. no
+
+9. x<0 ? y=10 : y=20;
+
+10. logical operator, because it is inside an if.
+
+11. yes and yes
+
+12. it does not preserve the sign bit when shifting right
+
+13. see Question13.java
+
+14. No, because they need to have values and they are dependant on each other.
+a increments, b decrements and b has to be greater than or equal to a.
+
+15. yes

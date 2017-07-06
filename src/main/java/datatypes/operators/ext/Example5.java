@@ -25,7 +25,7 @@ class Bubble {
         // This is the bubble sort.
         for(a=1; a < str.length; a++) {
             for (b = str.length - 1; b >= a; b--) {
-                if (str[b - 1].compareTo(str[b]) > 1) { // if out of order
+                if (str[b - 1].compareTo(str[b]) > 0) { // if out of order
                     t = str[b - 1];
                     str[b - 1] = str[b];
                     str[b] = t;
@@ -33,15 +33,12 @@ class Bubble {
             }
         }
 
-        String str2 = "sorter";
-        int i = str2.indexOf('r');
-        int y = str2.lastIndexOf('r');
 
 
-        // display sorted array
-//        System.out.print("Sorted array is:");
-//        for(int i=0; i < str.length; i++)
-//            System.out.print(" " + str[i]);
-//        System.out.println();
+//         display sorted array
+        System.out.print("Sorted array is:");
+        for(int x=0; x < str.length; x++)
+            System.out.print(" " + str[x]);
+        System.out.println();
     }
 }
