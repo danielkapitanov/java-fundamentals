@@ -124,6 +124,12 @@ class Rectangle2 extends TwoDShape9 {
     }
 }
 
+class Circle extends TwoDShape9 {
+    Circle (double radius){
+
+    }
+}
+
 class DynShapes {
     public static void main(String args[]) {
         TwoDShape9 shapes[] = new TwoDShape9[5];

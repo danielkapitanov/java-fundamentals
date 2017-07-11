@@ -1,0 +1,28 @@
+1. no
+yes, unless they are private
+
+2. see example 11
+
+3. you make it private
+
+4. one is for calling the superclass constructor from the subclass constructor.
+the other one acts like the 'this' keyword, but refers to superclass variables from a subclass
+
+5. Alpha, Beta, Gamma
+
+6. Because you can have a single method that takes an Animal object for example, and you can pass it objects of type Monkey,
+Lizard, etc, since they are Animal types.
+
+7. A class that defines methods that are to be used by the subclasses who implement it, but it does not necessarily
+have its own implementation
+
+8. the final keyword prevents a method from being overridden and a class from being inherited.
+
+9. They give the opportunity to have one method interface, which can be used in many different ways
+(on different objects, different parameters, etc.)
+
+10. Object
+
+11. True
+
+12. final

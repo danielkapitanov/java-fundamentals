@@ -33,6 +33,16 @@ class TwoDShape7 {
     }
 }
 
+class Circle7 extends TwoDShape7{
+    Circle7(double diameter){
+        super(diameter);
+    }
+
+    double getArea(){
+        return getWidth()/2*getWidth()/2*Math.PI;
+    }
+}
+
 // Extend TwoDShape.
 class Triangle7 extends TwoDShape7 {
     private String style;

@@ -1,6 +1,6 @@
 1. no
 
-2. be defined in
+2. preceed
 
 3. see Stack.java
 
