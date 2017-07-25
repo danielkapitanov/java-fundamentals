@@ -1,0 +1,25 @@
+1. it allows you to run several processes simultaneously.
+
+2. Thread class, Runnable interface.
+
+3. Because Threads has its own methods that you can use, while implementing the runnable interface will force you to make everything from scratch.
+
+4.
+try {
+            mt1.thrd.join();
+            mt2.thrd.join();
+        } catch(InterruptedException exc) {
+            System.out.println("Main thread interrupted.");
+        }
+
+5. mt1.Thrd.setPriority(Thread.NORM_PRIORITY+3);
+
+6. it makes that method impossible to call simultaneously by several threads.
+
+7. synchronization
+
+9. because they have been deprecated
+
+10. getName()
+
+11. determines whether a thread is still running

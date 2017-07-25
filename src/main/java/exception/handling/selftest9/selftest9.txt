@@ -1,0 +1,31 @@
+1. Exception
+
+2. try {
+// things that might cause an exception
+} catch (exception e){
+// do something
+}
+
+3. no try block
+
+4. it gets thrown to the JVM, and the program crashes
+
+5. B exc is never going to get called since it is a subclass of A (B should be before A)
+
+6. yes
+
+7. False. Its the last bit of code that gets executed after a try-catch clause.
+
+8. checked exceptions
+
+9. class should extend and Exception class
+
+10. lab 8
+
+11. try/catch, throw/throws/custom exceptions
+
+12. Exception, Error
+
+13. it gives the opportunity to catch different types of exceptions with one try block
+
+14. no, they are for the JVM

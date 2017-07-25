@@ -1,0 +1,27 @@
+1. D
+
+2. no
+
+3. class FlightSched<T,V>{}
+
+4. class FlightSched<T,V extends Thread>{}
+
+5. class FlightSched<T,V extends T>{}
+
+6. Its a wildcard argument that represents an unknown type
+
+7. yes
+
+8. <T> T MyGen<T>(T obj){}
+
+9. class GenClass<T, V extends T> implements IGenIF<T, V>
+
+10. T ob;
+
+11. no
+
+12.
+
+13. the way objects are declared
+
+14. it cannot
